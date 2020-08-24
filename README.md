@@ -5,6 +5,12 @@ speedrunner down using a compass. This plugin was written using bukkit and works
 ### Version: 1.16.2:
 There may or may not be bugs if you try to run it on an older or newer version.
 
+## Files:
+/idea: created by intellij, not important
+/out: this file conatins compiled code and the .jar file
+/src: this file contains the source code
+HunterVsSpeedrunner.iml: created by intellij, not important
+
 ## Downloading the .jar file:
 if you wish to use this plugin, go into: out/artifacts/ and download the HunterVsSpeedrunner.jar. This is the compiled version of the code. 
 
@@ -21,4 +27,6 @@ the plugin.yml file, the plugin may not work.
 
 ## Using the plugin on your bukkit server:
 All bukkit servers come with a "plugins" folder. Once you have your .jar file, just copy and paste it into the "plugins" folder, then reset your server. 
+
+
 
