@@ -6,7 +6,7 @@ speedrunner down using a compass. This plugin was written using bukkit and works
 There may or may not be bugs if you try to run it on an older or newer version.
 
 ## Files:
-/idea: created by intellij, not important
+/idea: created by intellij, not important \n
 /out: this file conatins compiled code and the .jar file
 /src: this file contains the source code
 HunterVsSpeedrunner.iml: created by intellij, not important
