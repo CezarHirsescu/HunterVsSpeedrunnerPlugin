@@ -1,0 +1,46 @@
+name: HunterVsSpeedrunner
+auther: Cezar
+main: me.cezar.Plugin.TrackerPlugin
+version: 1.0
+description: A HunterVsSpeedrunner plugin I coded for me and my friends. Inspired by Dream.
+
+commands:
+  set_hunter:
+    usage: /<command> [player]
+    description: Make specified player hunter
+    default: true
+
+  set_speedrunner:
+    usage: /<command> [player]
+    description: Make specified player speedrunner
+    default: true
+
+  remove_hunter:
+    usage: /<command> [player]
+    description: Make specified player speedrunner
+    default: true
+
+  remove_speedrunner:
+    usage: /<command> [player]
+    description: Make specified player speedrunner
+    default: true
+
+  start_game:
+    usgae: /<command>
+    description: Start the game after teams have been made
+    default: true
+
+  stop_game:
+    usage: /<command>
+    description: Stops the game manually
+    default: true
+
+  list_players:
+    usage: /<command>
+    description: Lists all the hunters and the speedrunners
+    default: true
+
+  help:
+    usage: /<command>
+    description: Lists all the possible commands
+    default: true
