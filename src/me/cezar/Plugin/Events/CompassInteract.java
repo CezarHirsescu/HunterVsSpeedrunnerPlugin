@@ -34,7 +34,7 @@ public class CompassInteract implements Listener {
 
                             // if the tracker IS in the overworld:
                             if (player.getLocation().getWorld().getName().equals("world")) {
-                                Bukkit.broadcastMessage(ChatColor.YELLOW + "The Tracker is pointing to the last known location of the speedrunner");
+                                player.sendMessage(ChatColor.YELLOW + "The Tracker is pointing to the last known location of the speedrunner");
 
                             } else {    // The tracker is also not in the overworld
                                 player.sendMessage(ChatColor.RED + "Tracker only works in the overworld");
@@ -48,7 +48,7 @@ public class CompassInteract implements Listener {
 
                             TrackerPlugin.getInstance().setSpeedrunner_loc(TrackerPlugin.getInstance().getSpeedrunner().getLocation());
                             player.setCompassTarget(TrackerPlugin.getInstance().getSpeedrunner_loc());
-                            Bukkit.broadcastMessage(ChatColor.GREEN + "The compass is pointing at " + TrackerPlugin.getInstance().getSpeedrunner().getName());
+                            player.sendMessage(ChatColor.GREEN + "The compass is pointing at " + TrackerPlugin.getInstance().getSpeedrunner().getName());
 
                         }
                     } else {    // the speedrunner was not set yet
